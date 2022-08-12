@@ -25,7 +25,7 @@ https://github.com/Move-X/MAMWLE_ArduinoSupport/raw/main/package_move-x_index.js
 **Tested on Arduino IDE 1.8**
 
 ## Requirements
-1) The uploader tool that flash the scripts into mcu meerà "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html. Please install it.
+1) The uploader tool that flash the scripts into mcu needs "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html. Please install it.
 (Ensure that '[STM32CubeProgrammer path]/bin' is included in the PATH environment)
 
 2) For MacOs and Linux users, Python 3.7 or higher need to be installed. Follow this link: https://www.python.org/downloads/
