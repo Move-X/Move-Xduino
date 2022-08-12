@@ -18,15 +18,17 @@ This porting is based on:
 
 This repo is available as a package usable with [Arduino Boards Manager](https://www.arduino.cc/en/guide/cores).
 
-Add this link in the "*File->Settings->Additional Boards Managers URLs*" field:
+Add this link in the (Arduino IDE) "*Additional Boards Managers URLs*" field:
 
 https://github.com/Move-X/MAMWLE_ArduinoSupport/raw/main/package_move-x_index.json
 
 **Tested on Arduino IDE 1.8**
 
 ## Requirements
-To upload the scripts you must install "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html
+1) To flash the scripts into mcu you must install "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html
 (Please ensure that '<STM32CubeProgrammer path>/bin' is included in the PATH environment)
+
+2) For MacOs and Linux users, Python 3.x need to be installed. Follow this link: https://www.python.org/downloads/
 
 ## Original Project:
 https://github.com/stm32duino/Arduino_Core_STM32
