@@ -22,12 +22,11 @@ Add this link in the "*File->Settings->Additional Boards Managers URLs*" field:
 
 https://github.com/Move-X/MAMWLE_ArduinoSupport/raw/main/package_move-x_index.json
 
+**Tested on Arduino IDE 1.8**
+
 ## Requirements
 To upload the scripts you must install "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html
 (Please ensure that '<STM32CubeProgrammer path>/bin' is included in the PATH environment)
-
-Tested on Arduino IDE 1.8
-________________________________________________________________________________________________________
 
 ## Original Project:
 https://github.com/stm32duino/Arduino_Core_STM32
