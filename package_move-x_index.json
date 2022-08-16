@@ -14,7 +14,7 @@
           "architecture": "stm32",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0/MAMWLE_Core-1.0.0.tar.gz",
+          "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Core-1.0.0.tar.gz",
           "archiveFileName": "MAMWLE_Core-1.0.0.tar.gz",
           "checksum": "SHA-256:d62ad3cfa79c9afb48a00907d6faba57c4a009a3a91f07584ac441ff852c904f",
           "size": "6068988",
@@ -113,7 +113,7 @@
           "systems": [
             {
               "host": "all",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0/MAMWLE_Tool-1.0.0.tar.gz",
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
               "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
               "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
               "size": "10344529"
