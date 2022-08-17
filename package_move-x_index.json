@@ -97,8 +97,7 @@
         {
           "name": "CMSIS",
           "version": "5.7.0",
-          "systems":
-          [
+          "systems": [
             {
               "host": "i686-mingw32",
               "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
@@ -143,11 +142,10 @@
             }
           ]
         },
-		    {
+		{
           "name": "MAMWLE_Tool",
           "version": "1.0.0",
           "systems": [
-          [
             {
               "host": "i686-mingw32",
               "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
