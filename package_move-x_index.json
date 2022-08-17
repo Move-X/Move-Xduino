@@ -142,7 +142,7 @@
             }
           ]
         },
-		{
+        {
           "name": "MAMWLE_Tool",
           "version": "1.0.0",
           "systems": [
