@@ -22,12 +22,16 @@ Add this link in the (Arduino IDE) "*Additional Boards Managers URLs*" field:
 
 https://github.com/Move-X/MAMWLE_ArduinoSupport/raw/main/package_move-x_index.json
 
-**Tested on Arduino IDE 1.8**
+**Tested on Arduino IDE 1.8 and Arduino IDE 2.0**
 
 ## Requirements
 1) The uploader tool that flash the scripts into mcu needs "*STM32CubeProgrammer*" utility available at https://www.st.com/en/development-tools/stm32cubeprog.html. Please install it. (Ensure that '[STM32CubeProgrammer path]/bin' is included in the PATH environment)
 
-2) For MacOs and Linux users, Python 3.7 or higher need to be installed. Follow this link https://www.python.org/downloads/ if not yet installed on system. (Ensure that '[python installation path]' is included in the PATH environment)
+
+~~2) For MacOs and Linux users, Python 3.7 or higher need to be installed. Follow this link https://www.python.org/downloads/ if not yet installed on system. (Ensure that '[python installation path]' is included in the PATH environment)~~
+
+**Please note that Serial upload through usb port of Cicerone board is not yet supported on macOS and Linux**
+
 
 ## Original Project:
 https://github.com/stm32duino/Arduino_Core_STM32
