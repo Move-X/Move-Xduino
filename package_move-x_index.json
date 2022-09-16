@@ -12,12 +12,12 @@
         {
           "name": "MAMWLE based boards",
           "architecture": "stm32",
-          "version": "1.0.0",
+          "version": "1.0.0-rc1",
           "category": "Contributed",
-          "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Core-1.0.0.tar.gz",
-          "archiveFileName": "MAMWLE_Core-1.0.0.tar.gz",
-          "checksum": "SHA-256:d62ad3cfa79c9afb48a00907d6faba57c4a009a3a91f07584ac441ff852c904f",
-          "size": "6068988",
+          "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Core-1.0.0-rc1.tar.gz",
+          "archiveFileName": "MAMWLE_Core-1.0.0-rc1.tar.gz",
+          "checksum": "SHA-256:6fda413b95432110b9c788cc2900462be12a7ba3ce6ba2b4d57b8372f5d51775",
+          "size": "6212800",
           "boards": [
             {
               "name": "Cicerone"
@@ -40,7 +40,7 @@
             {
               "packager": "Move-X",
               "name": "MAMWLE_Tool",
-              "version": "1.0.0"
+              "version": "1.0.0-rc1"
             }
           ]
         }
@@ -144,49 +144,49 @@
         },
         {
           "name": "MAMWLE_Tool",
-          "version": "1.0.0",
+          "version": "1.0.0-rc1",
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             },
             {
               "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             },
             {
               "host": "all",
-              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-alpha/MAMWLE_Tool-1.0.0.tar.gz",
-              "archiveFileName": "MAMWLE_Tool-1.0.0.tar.gz",
-              "checksum": "SHA-256:4f003deb73cb892e8fc7a4ab82fd2bc8732e9a4a37dcfa6bd726e6f076c37163",
-              "size": "10344529"
+              "url": "https://github.com/Move-X/MAMWLE_ArduinoSupport/releases/download/1.0.0-rc1/MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc1.tar.gz",
+              "checksum": "SHA-256:5c8a89d088360b8c0cee8164b4e13a09c5d826752aedae8962ce2dfe3587e8db",
+              "size": "10344535"
             }
           ]
         }
