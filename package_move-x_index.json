@@ -5,9 +5,7 @@
       "websiteURL": "https://github.com/Move-X",
       "maintainer": "Move-X",
       "email": "info@move-x.it",
-      "help": {
-        "online": "http://www.move-x.it/"
-      },
+
       "platforms": [
         {
           "name": "MAMWLE based boards",
@@ -115,6 +113,7 @@
           ]
         }
       ],
+
       "tools": [
         {
           "name": "xpack-arm-none-eabi-gcc",
