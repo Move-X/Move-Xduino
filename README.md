@@ -21,7 +21,7 @@ This repo is available as a package usable with [Arduino Boards Manager](https:/
 
 Add this link in the (Arduino IDE) "*Additional Boards Managers URLs*" field:
 
-https://github.com/Move-X/MAMWLE_ArduinoSupport/raw/main/package_move-x_index.json
+https://github.com/Move-X/Move-Xduino/raw/main/package_move-x_index.json
 
 **Tested on Arduino IDE 1.8 and Arduino IDE 2.0**
 
