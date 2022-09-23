@@ -38,6 +38,7 @@ Please install it and ensure that 'STM32CubeProgrammer installation path/bin' is
 3. **CP210X Usb-to-Serial** present on Cicerone board to be used for __serial programming__:
     * MacOs Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
+        * On Apple M1 you may need to execute "sudo xattr -r -d com.apple.quarantine ~/Library/Arduino15/packages/Move-X/tools/MAMWLE_Tool/*/macos/libusb-1.0_arm.dylib" to allow execution of libusb
     * Linux Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
-        * Execute add_rules.sh script to allow non-root users to access ttyUSB device
+        * Execute "sudo sh ~/.arduino15/packages/Move-X/tools/MAMWLE_Tool/*/linux/add_rule.sh" to allow non-root users to access ttyUSB device
