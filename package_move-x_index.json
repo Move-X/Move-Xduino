@@ -5,7 +5,6 @@
       "websiteURL": "https://github.com/Move-X",
       "maintainer": "Move-X",
       "email": "info@move-x.it",
-
       "platforms": [
         {
           "name": "MAMWLE based boards",
@@ -111,9 +110,43 @@
               "version": "1.0.0-rc3"
             }
           ]
+        },
+        {
+          "name": "MAMWLE based boards",
+          "architecture": "stm32",
+          "version": "1.0.0-rc4",
+          "category": "Contributed",
+          "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Core-1.0.0-rc4.tar.gz",
+          "archiveFileName": "MAMWLE_Core-1.0.0-rc4.tar.gz",
+          "checksum": "SHA-256:9151b582e11fd4f1a602afedb9520fbc8f8bf5d192ba915b026db7e56fe3fcb7",
+          "size": "4948783",
+          "boards": [
+            {
+              "name": "Cicerone"
+            },
+            {
+              "name": "Generic MAMWLE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Move-X",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "10.3.1-2.3"
+            },
+            {
+              "packager": "Move-X",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "Move-X",
+              "name": "MAMWLE_Tool",
+              "version": "1.0.0-rc4"
+            }
+          ]
         }
       ],
-
       "tools": [
         {
           "name": "xpack-arm-none-eabi-gcc",
@@ -352,6 +385,54 @@
               "archiveFileName": "MAMWLE_Tool-1.0.0-rc3.tar.gz",
               "checksum": "SHA-256:62eeba978fdd51ee13b8edca74e1b1a8618fc802a405a90e709917f4e6e781d9",
               "size": "10909001"
+            }
+          ]
+        },
+        {
+          "name": "MAMWLE_Tool",
+          "version": "1.0.0-rc4",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc4/MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
+              "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
+              "size": "10908988"
             }
           ]
         }
