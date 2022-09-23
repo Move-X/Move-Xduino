@@ -2,6 +2,8 @@
 
 Arduino support package for Cicerone board and generic MAMWLE-based boards.
 
+![Move-Xduino Logo](/Docs/Move-Xduino_logo.png?raw=true)
+
 ## Introduction
 
 This repo adds the support of STM32 MCU in Arduino IDE.<br>
