@@ -145,6 +145,41 @@
               "version": "1.0.0-rc4"
             }
           ]
+        },
+        {
+          "name": "MAMWLE based boards",
+          "architecture": "stm32",
+          "version": "1.0.0-rc5",
+          "category": "Contributed",
+          "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Core-1.0.0-rc5.tar.gz",
+          "archiveFileName": "MAMWLE_Core-1.0.0-rc5.tar.gz",
+          "checksum": "SHA-256:697a1b67978ff4ff4ed517f029345fd9518ce7cb4833190cf498f45176b5179a",
+          "size": "4948846",
+          "boards": [
+            {
+              "name": "Cicerone"
+            },
+            {
+              "name": "Generic MAMWLE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Move-X",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "10.3.1-2.3"
+            },
+            {
+              "packager": "Move-X",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "Move-X",
+              "name": "MAMWLE_Tool",
+              "version": "1.0.0-rc5"
+            }
+          ]
         }
       ],
       "tools": [
@@ -433,6 +468,54 @@
               "archiveFileName": "MAMWLE_Tool-1.0.0-rc4.tar.gz",
               "checksum": "SHA-256:e541441501d80db1f740201f4033697381619b11bccb9d30273b6f2b9343eba3",
               "size": "10908988"
+            }
+          ]
+        },
+        {
+          "name": "MAMWLE_Tool",
+          "version": "1.0.0-rc5",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.0-rc5/MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "archiveFileName": "MAMWLE_Tool-1.0.0-rc5.tar.gz",
+              "checksum": "SHA-256:b5c9c4e655ed9b7091fa5dcd2d721f6c002bb150455338e9295691acda14487f",
+              "size": "10909020"
             }
           ]
         }
