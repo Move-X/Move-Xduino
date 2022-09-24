@@ -28,14 +28,16 @@ https://github.com/Move-X/Move-Xduino/raw/main/package_move-x_index.json
 **Tested on Arduino IDE 1.8 and Arduino IDE 2.0**
 
 ## Requirements
-1. The Uploader Tool is based on the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) utility. 
-Please install it and ensure that 'STM32CubeProgrammer installation path/bin' is included in the (user) PATH environment
-2. **CP210X Usb-to-Serial** present on Cicerone board to be used for __serial communication__:
+1. **CP210X Usb-to-Serial** present on Cicerone board used for __serial communication__:
     * Windows Users
         * Install CP210x VCP Drivers from https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
     * MacOs Users and Linux Users
         * CP210x Drivers should be natively inserted in kernel. If this is not the case, please install it (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-3. **CP210X Usb-to-Serial** present on Cicerone board to be used for __serial programming__:
+2. **CP210X Usb-to-Serial** present on Cicerone board used for __serial programming__:
+    * All OS
+        * The customized (Arduino IDE) Uploader Tool is based on the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) utility. Please install it and ensure that 'STM32CubeProgrammer installation path/bin' is included in the (user) PATH environment
+    * Windows Users
+        * No other requirements
     * MacOs Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
         * On Apple M1 you may need to execute "sudo xattr -r -d com.apple.quarantine ~/Library/Arduino15/packages/Move-X/tools/MAMWLE_Tool/*/macos/libusb-1.0_arm.dylib" to allow execution of libusb
