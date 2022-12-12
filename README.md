@@ -21,25 +21,29 @@ This porting is based on:
 
 This repo is available as a package usable with [Arduino Boards Manager](https://www.arduino.cc/en/guide/cores).
 
-Add this link in the (Arduino IDE) "*Additional Boards Managers URLs*" field:
+Add this link in the (Arduino IDE) "*Additional Boards Managers URLs*" field (*File -> Preferences*):
 
 https://github.com/Move-X/Move-Xduino/raw/main/package_move-x_index.json
+
+Then, from *Boards Manager* (*Tools -> Board*), search for "*Move-X*" and install the latest version of "*MAMWLE based boards by Moxe-X*"
 
 **Tested on Arduino IDE 1.8 and Arduino IDE 2.0**
 
 ## Requirements
-1. **CP210X Usb-to-Serial** present on Cicerone board used for __serial communication__:
+1. **CP210X Usb-to-Serial** (present on Cicerone board) for __serial communication__:
     * Windows Users
         * Install CP210x VCP Drivers from https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
     * MacOs Users and Linux Users
         * CP210x Drivers should be natively inserted in kernel. If this is not the case, please install it (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-2. **CP210X Usb-to-Serial** present on Cicerone board used for __serial programming__:
+        * For MacOS users, please allow system access to the board after first connection (a popup will be displayed).
+2. **CP210X Usb-to-Serial** (present on Cicerone board) for __serial programming__:
     * All OS
         * The customized (Arduino IDE) Uploader Tool is based on the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) utility. Please install it and ensure that 'STM32CubeProgrammer installation path/bin' is included in the (user) PATH environment
     * Windows Users
         * No other requirements
     * MacOs Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
+        * Please allow system access to the board after first connection (a popup will be displayed).
         * On Apple M1 you may need to execute "sudo xattr -r -d com.apple.quarantine ~/Library/Arduino15/packages/Move-X/tools/MAMWLE_Tool/*/macos/libusb-1.0_arm.dylib" to allow execution of libusb
     * Linux Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
