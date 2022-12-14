@@ -48,3 +48,61 @@ Then, from *Boards Manager* (*Tools -> Board*), search for "*Move-X*" and instal
     * Linux Users [BETA]
         * Install [Python 3](https://www.python.org/downloads/) if not yet present on the system
         * Execute "sudo sh ~/.arduino15/packages/Move-X/tools/MAMWLE_Tool/*/linux/add_rule.sh" to allow non-root users to access ttyUSB device
+
+## Utilities
+
+### **Manual Boot Mode controller for Cicerone Board (for version 1.0.2+)**
+
+This tool lets you control manually the BOOT0 pin of Cicerone Board to enter/exit Boot Mode.
+It enables the use of STM32CubeProgrammer for Serial Connection to the STM32 MCU
+
+* Windows Users
+    * Go to "%LOCALAPPDATA%/Arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/"
+    * Open a terminal in this directory
+    * execute ".\win\busybox.exe sh .\CiceroneBootControl.sh {mode} {com_port}"
+        * {mode}:
+            * "boot" -> enter boot mode (code downloading)
+            * "run"  -> enter run mode (code execution)
+        * {com_port}:
+            * Ex. "COM1"
+* MacOs Users
+    * Go to "/Users/{username}/Library/Arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/" (Finder -> Menu -> Go -> [hold option key] Library -> Arduino 15)
+    * Open a terminal in this directory
+    * execute "sh .\CiceroneBootControl.sh {mode} {com_port}"
+        * {mode}:
+            * "boot" -> enter boot mode (code downloading)
+            * "run"  -> enter run mode (code execution)
+        * {com_port}:
+            * Ex. "/dev/cu.usbserial-00406114"
+* Linux Users
+    * Go to "/home/{username}/.arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/" (is hidden by default)
+    * Open a terminal in this directory
+    * execute "sh .\CiceroneBootControl.sh {mode} {com_port}"
+        * {mode}:
+            * "boot" -> enter boot mode (code downloading)
+            * "run"  -> enter run mode (code execution)
+        * {com_port}:
+            * Ex. "/dev/ttyUSB0"
+
+### **Manual Firmware Uploader tool for Cicerone Board (for version 1.0.2+)**
+
+This tool lets you flash manually a ".bin/.hex" compiled firmware to the Cicerone Board using serial communication.
+
+* Windows Users
+    * Go to "%LOCALAPPDATA%/Arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/"
+    * Open a terminal in this directory
+    * execute ".\win\busybox.exe sh .\stm32CubeProg.sh 1 {file_path} {com_port}"
+        * {file_path}: file path name to be downloaded (bin, hex)
+        * {com_port}:  Ex. "COM1"
+* MacOs Users
+    * Go to "/Users/{username}/Library/Arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/" (Finder -> Menu -> Go -> [hold option key] Library -> Arduino 15)
+    * Open a terminal in this directory
+    * execute "sh .\stm32CubeProg.sh 1 {file_path} {com_port}"
+        * {file_path}: file path name to be downloaded (bin, hex)
+        * {com_port}:  Ex. "/dev/cu.usbserial-00406114"
+* Linux Users
+    * Go to "/home/{username}/.arduino15/packages/Move-X/tools/MAMWLE_Tool/{version}/" (is hidden by default)
+    * Open a terminal in this directory
+    * execute "sh .\stm32CubeProg.sh 1 {file_path} {com_port}"
+        * {file_path}: file path name to be downloaded (bin, hex)
+        * {com_port}:  Ex. "/dev/ttyUSB0"
