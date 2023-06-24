@@ -113,6 +113,44 @@
               "version": "1.0.2"
             }
           ]
+        },
+        {
+          "name": "MAMWLE based boards",
+          "architecture": "stm32",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "url": "https://github.com/Move-X/Move-Xduino/releases/download/1.0.3/MAMWLE_Core-1.0.3.tar.gz",
+          "archiveFileName": "MAMWLE_Core-1.0.3.tar.gz",
+          "checksum": "SHA-256:4e9a2d5b77ee79fd4d95c1f1729523ce26f4e0e5624455efbc10a6b051f15296",
+          "size": "4954893",
+          "boards": [
+            {
+              "name": "Cicerone"
+            },
+            {
+              "name": "MAMWLE-00/01 (128 KB Flash, 48 KB RAM)"
+            },
+            {
+              "name": "MAMWLE-02/03 (256 KB Flash, 64 KB RAM)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Move-X",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "10.3.1-2.3"
+            },
+            {
+              "packager": "Move-X",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "Move-X",
+              "name": "MAMWLE_Tool",
+              "version": "1.0.2"
+            }
+          ]
         }
       ],
       "tools": [
